@@ -1,1 +1,20 @@
-
+<info>
+  <chat>163</chat>
+  <Severity>Minor</Severity>
+  <Environment>iPhone 11 16.4.1 Safari Windows 10 Home Chrome 112 Win 11 Pro Chrome 112 MacOS Monterey 12.6.5 Chrome 112</Enviroment>
+  <Title>HTML img srcset of all images on Glossary page is set as 600x300. All images include invalid image sources.</Title>
+  <Steps>
+    1. Navigate to capital.com 
+    2. Hover over the [Education] menu section 
+    3. Click on [Glossary of trading terms] item 
+    4. Click on any Glossary term, e.g. [Accounting Ratio] 
+    5. Open devtools and look at the image element img srcset 
+    6. Examples of cropped img src here.
+  </Steps>
+  <expectedResult>The image srcset is set as e.g. 800x600, as a result the image content on page is fully visible</expectedResult>
+  <ActualResult>The image srcset is set as 600x300, as a result the image content on page is not fully visible</ActualResult>
+  <Link>Link</Link>
+  <License>All</License>
+  <Role>All</Role>
+  <Bug_started>@ida_quetzalcoatl</Bug_started>
+</info>
