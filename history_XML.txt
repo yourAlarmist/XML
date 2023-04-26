@@ -1,0 +1,35 @@
+  453  cd ..
+  454  git clone https://github.com/yourAlarmist/XML.git
+  455  cd XML/
+  456  touch new.xml
+  457  git status
+  458  git add new.xml
+  459  git status
+  460  git commit -m "creating new.xml"
+  461  git push
+  462  nano new.xml 
+  463  git status
+  464  git add new.xml
+  465  git status
+  466  git commit -m "changed new.xml"
+  467  git push
+  468  touch preferences.xml
+  469  nano preferences.xml
+  470  touch skills.xml
+  471  nano skills.xml 
+  472  git status
+  473  git add .
+  474  git commit -m "added 2 files(preferences.xml, skills.xml"
+  475  git status
+  476  git push
+  477  git pull
+  478  echo "homework2/XML" > README.md
+  479  git status
+  480  git add .
+  481  git commit -m "added README.md"
+  482  git push
+  483  history
+  484  history 22 > history_XML
+  485  mv history_XML history_XML.txt
+  486  history 25 > history_XML.txt
+  487  history 35 > history_XML.txt
